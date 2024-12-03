@@ -1,0 +1,6 @@
+@ocelot_gateway_dotnet8_HostAddress = http://localhost:5264
+
+GET {{ocelot_gateway_dotnet8_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
